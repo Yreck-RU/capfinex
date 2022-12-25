@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy Light");
+  src: url("../../assets/fonts/Gilroy/Gilroy-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy");
+  src: url("../../assets/fonts/Gilroy/Gilroy-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy Medium");
+  src: url("../../assets/fonts/Gilroy/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy SemiBold");
+  src: url("../../assets/fonts/Gilroy/Gilroy-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy Bold");
+  src: url("../../assets/fonts/Gilroy/Gilroy-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy ExtraBold");
+  src: url("../../assets/fonts/Gilroy/Gilroy-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local("Gilroy Black");
+  src: url("../../assets/fonts/Gilroy/Gilroy-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DrukWide';
+  src: local("DrukWide Medium");
+  src: url("../../assets/fonts/DrukWide/DrukWide-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Inter';
+  src: local("Inter Bold");
+  src: url("../../assets/fonts/Inter/Inter-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Inter';
+  src: local("Inter SemiBold");
+  src: url("../../assets/fonts/Inter/Inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Inter';
+  src: local("Inter Medium");
+  src: url("../../assets/fonts/Inter/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Inter';
+  src: local("Inter Regular");
+  src: url("../../assets/fonts/Inter/Inter-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Inter';
+  src: local("Inter Light");
+  src: url("../../assets/fonts/Inter/Inter-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
