@@ -323,3 +323,68 @@ document.addEventListener( 'click', (e) => {
 		//alert("1");
 	}
 });
+
+document.addEventListener( 'click', (e) => {
+	let button = document.querySelector('.header__lang');
+	//let menuClass = document.querySelector('.header__mobile-menu');
+	let withinBoundarie = e.composedPath().includes(button);
+	//let withinBoundaries2 = e.composedPath().includes(menuClass);
+ 
+	if ( ! withinBoundarie ) {
+		button.classList.remove('header__lang--active');
+	} else {
+		//alert("1");
+	}
+});
+
+/*Выравневание в ряд
+document.addEventListener( 'click', (e) => {
+	let button = document.querySelector('.header__lang');
+	let withinBoundarie = e.composedPath().includes(button);
+ 
+	if ( ! withinBoundarie ) {
+		button.classList.remove('header__lang--active');
+	} else {
+
+	}
+});*/
+
+// Анимация Index block ======================================
+
+/*const inAniItems =  document.querySelectorAll('.in-ani-item');
+let inAniItemNamber = 10;
+if (inAniItems) {
+	alert("k");
+	for (let i = 0; i < inAniItems.length; i++) {
+		//alert("k5");
+		let inAniItem = inAniItems[i];
+		inAniItemNamber = inAniItemNamber + 20;
+		inAniItem.style.left = `${inAniItemNamber}px`;
+	}
+}*/
+
+
+const inAniItems =  document.querySelectorAll('.in-ani-item');
+let inAniItemNamber = 0;
+if (inAniItems) {
+	//alert("k");
+	for (let i = 0; i < inAniItems.length; i++) {
+		//alert("k5");
+		let inAniItem = inAniItems[i];
+		let inAniItemDecorTop = inAniItem.querySelector('.in-ani-item__decor_top');
+		let inAniItemDecorBottom = inAniItem.querySelector('.in-ani-item__decor_bottom');
+		inAniItemNamber = inAniItemNamber + 0.15;
+		inAniItem.style.animationDelay = `${inAniItemNamber}s`;
+		inAniItemDecorTop.style.animationDelay = `${inAniItemNamber}s`;
+		inAniItemDecorBottom.style.animationDelay = `${inAniItemNamber}s`;
+	}
+}
+
+let timerinAniItem = setTimeout(function tick() {
+	const AniItemWrapper =  document.querySelector('.index-animation');
+	if (AniItemWrapper) {
+		//AniItemWrapper.classList.add('_active');
+		AniItemWrapper.classList.remove('_active');
+	}
+}, 3700);
+//============================================================
