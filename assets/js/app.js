@@ -373,7 +373,7 @@ if (inAniItems) {
 		let inAniItem = inAniItems[i];
 		let inAniItemDecorTop = inAniItem.querySelector('.in-ani-item__decor_top');
 		let inAniItemDecorBottom = inAniItem.querySelector('.in-ani-item__decor_bottom');
-		inAniItemNamber = inAniItemNamber + 0.15;
+		inAniItemNamber = inAniItemNamber + 0.20;
 		inAniItem.style.animationDelay = `${inAniItemNamber}s`;
 		inAniItemDecorTop.style.animationDelay = `${inAniItemNamber}s`;
 		inAniItemDecorBottom.style.animationDelay = `${inAniItemNamber}s`;
