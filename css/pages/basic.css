@@ -13940,12 +13940,12 @@ button.footer-top__link {
 .contacts-index .row {
   padding-left: 0 !important;
   padding-right: 0 !important; }
+  @media (max-width: 767px) {
+    .contacts-index .row {
+      display: block; } }
 
 .contacts-index .contacts__img {
   max-width: none !important; }
-  @media (max-width: 1024px) {
-    .contacts-index .contacts__img {
-      z-index: -1 !important; } }
 
 .contacts-index .contacts__content {
   -ms-grid-column: 1;
@@ -13958,6 +13958,12 @@ button.footer-top__link {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   position: relative; }
+  @media (max-width: 920px) {
+    .contacts-index .contacts__content {
+      padding: 40px 20px; } }
+  @media (max-width: 540px) {
+    .contacts-index .contacts__content {
+      padding: 40px 10px; } }
 
 .contacts-index .contacts__title {
   margin-bottom: 25px; }
@@ -13988,6 +13994,16 @@ button.footer-top__link {
   grid-column: 7/13;
   padding: 80px 70px;
   z-index: 2; }
+  @media (max-width: 1280px) {
+    .contacts-index .contacts__form {
+      padding: 90px 30px;
+      padding-left: 0; } }
+  @media (max-width: 1024px) {
+    .contacts-index .contacts__form {
+      padding-left: 30px; } }
+  @media (max-width: 540px) {
+    .contacts-index .contacts__form {
+      padding: 40px 10px; } }
 
 .contacts-index .contacts-form__title {
   font-size: 36px;
@@ -14092,6 +14108,46 @@ button.footer-top__link {
   font-size: 16px;
   line-height: 1.2;
   display: block; }
+
+.contacts-index .contacts__img img.pc {
+  display: block !important; }
+  @media (max-width: 540px) {
+    .contacts-index .contacts__img img.pc {
+      display: none !important; } }
+
+@media (max-width: 540px) {
+  .contacts-index .contacts__img {
+    width: 100% !important;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); } }
+
+@media (max-width: 540px) {
+  .contacts-index .contacts__img img.tablet {
+    display: block !important; } }
+
+.contacts.contacts-index .row::before {
+  content: "" !important;
+  width: 150px !important;
+  height: 100% !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 1 !important;
+  background: #3D58A9 !important;
+  display: block !important; }
+  @media (max-width: 767px) {
+    .contacts.contacts-index .row::before {
+      width: 100% !important;
+      height: 120px !important; } }
+
+.contacts .row::after {
+  pointer-events: none !important; }
+
+.contacts.contacts-index .contacts-form__inputs {
+  display: block !important;
+  width: 100% !important; }
 
 .intro-license-for-cryptocurrencies .intro__title {
   font-size: 62px;
